@@ -1,0 +1,33 @@
+{
+  "name": "hubot-geo",
+  "version": "0.1.0",
+  "description": "Hubot script to provide Geo info about an IP or DNS name ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --compilers coffee:coffee-script/register --recursive -R list",
+    "test-watch": "node ./node_modules/mocha/bin/mocha --compilers coffee:coffee-script/register --recursive -R list -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DinisCruz/hubot-geo.git"
+  },
+  "keywords": [
+    "hubot",
+    "geo",
+    "ip"
+  ],
+  "author": "Dinis Cruz <dinis.cruz@owasp.org> (http://blog.diniscruz.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DinisCruz/hubot-geo/issues"
+  },
+  "homepage": "https://github.com/DinisCruz/hubot-geo",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "fluentnode": "^0.4.0",
+    "hubot": "^2.12.0"
+  }
+}
